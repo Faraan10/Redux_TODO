@@ -8,7 +8,6 @@ const todoReducer = (state = initialState, action) => {
 			const { id, data } = action.payload;
 
 			return {
-				...state,
 				list: [
 					...state.list,
 					{
@@ -24,6 +23,11 @@ const todoReducer = (state = initialState, action) => {
 			return {
 				...state,
 				list: newList,
+			};
+
+		case "REMOVE_TODO":
+			return {
+				list: [],
 			};
 
 		default:
