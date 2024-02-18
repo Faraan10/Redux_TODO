@@ -1,0 +1,68 @@
+body{
+    background:black;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-mosaic.png");
+    font-family:'Courier New', Courier, monospace
+}
+
+
+.container{
+    text-align:center;
+    margin-top:6%;
+}
+
+.text{
+    font-size:40px;
+    color:white;
+    font-weight:bold;
+}
+
+.todolist{
+    margin-top:3%;
+}
+
+.field{
+    border-radius:2px;
+    border:none;
+    height:40px;
+    width:28%;
+}
+
+.button{
+    height:40px;
+    border:none;
+    color:none;
+    width:40px;
+}
+
+.button:hover{
+    color:#0B60B0;
+}
+
+
+.outputbox{
+    margin-top:4%;
+   text-align: left;
+}
+
+.display{
+    margin-left:34%;
+    padding:5px;
+}
+
+.list{
+    height:38px;
+    width:48.2%;
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+    border-radius:2px;
+    font-weight:bold;
+    margin:0;
+
+}
+
+.align{
+    margin-top:6.5%;
+    margin-right:2%;
+    cursor:pointer;
+}
